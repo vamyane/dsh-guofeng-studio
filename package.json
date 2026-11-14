@@ -1,0 +1,51 @@
+{
+  "name": "dsh-guofeng-studio",
+  "version": "1.0.0",
+  "description": "Chinese-style songwriting studio for DeepSeek Harness: bundles the composer and lyricist skills plus a word-song orchestration skill, so one install gives the agent mode/scale decisions, numbered-notation melodies, chord charts, arrangement tables, rhyme/imagery/ allusion lint, .jp/.lyr/.slots.json handoff and multi-track MIDI export. All local, no network, no API keys.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "icon": "assets/icon.png",
+  "author": "奶龙1号",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "skill",
+    "skills",
+    "music",
+    "chinese-style",
+    "guofeng",
+    "songwriting",
+    "lyrics",
+    "midi",
+    "jianpu"
+  ],
+  "engines": {
+    "node": ">=20",
+    "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "files": [
+    "lib/index.js",
+    "assets/icon.png",
+    "assets/skills/**",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md",
+    "LICENSE",
+    "NOTICE.md"
+  ],
+  "scripts": {
+    "test": "node test/smoke.mjs",
+    "pack:check": "npm pack --dry-run"
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "meta": {
+    "skill": "guofeng-music-composer",
+    "version": "1.0.0",
+    "generated": "2026-10-25"
+  },
+  "brief": {
+    "theme": "江南雨",
+    "style": "shuqing",
+    "style_name": "抒情国风",
+    "mood": "雨夜旧巷的思念，哀而不伤",
+    "key": "D",
+    "mode": "yu",
+    "scale": "qingyue",
+    "bpm": 72,
+    "duration_sec": 107,
+    "meter": "4/4",
+    "instrument": "xiao",
+    "instrument_name": "箫",
+    "vocal": true
+  },
+  "scale_notes": {
+    "degrees": [
+      "1",
+      "2",
+      "3",
+      "5",
+      "6"
+    ],
+    "bianyin": [
+      "4",
+      "7"
+    ],
+    "absolute": "D E F# A B",
+    "tuning_note": "以 D 为宫（1=D）；羽调式落音为 6；偏音 4=G、7=C# 只做经过/辅助音，不可做落音或长音。"
+  },
+  "structure": [
+    {
+      "name": "前奏",
+      "start_bar": 1,
+      "bars": 4,
+      "seconds": 13,
+      "role": "建立音色与动机",
+      "density": "稀疏",
+      "texture": "单线条 + 泛音"
+    },
+    {
+      "name": "主歌",
+      "start_bar": 5,
+      "bars": 4,
+      "seconds": 13,
+      "role": "叙事铺陈，人声最低音区",
+      "density": "中",
+      "texture": "旋律 + 分解和弦"
+    },
+    {
+      "name": "预副",
+      "start_bar": 9,
+      "bars": 4,
+      "seconds": 13,
+      "role": "抬升情绪，加低音推进",
+      "density": "中密",
+      "texture": "加入弦乐长音"
+    },
+    {
+      "name": "副歌1",
+      "start_bar": 13,
+      "bars": 4,
+      "seconds": 13,
+      "role": "主题爆发，民乐与弦乐叠奏",
+      "density": "密",
+      "texture": "全编制"
+    },
+    {
+      "name": "间奏",
+      "start_bar": 17,
+      "bars": 4,
+      "seconds": 13,
+      "role": "留白转场，主奏 solo",
+      "density": "稀疏",
+      "texture": "单线条 + 刮奏"
+    },
+    {
+      "name": "副歌2",
+      "start_bar": 21,
+      "bars": 4,
+      "seconds": 13,
+      "role": "再爆发，加高八度叠奏",
+      "density": "更密",
+      "texture": "全编制 + 高八度"
+    },
+    {
+      "name": "副歌3",
+      "start_bar": 25,
+      "bars": 4,
+      "seconds": 13,
+      "role": "最高潮，唢呐/笛上翻",
+      "density": "密",
+      "texture": "全编制 + 打击加强"
+    },
+    {
+      "name": "尾",
+      "start_bar": 29,
+      "bars": 4,
+      "seconds": 13,
+      "role": "收束余韵，回到单线条",
+      "density": "稀疏",
+      "texture": "主奏渐弱 + 泛音"
+    }
+  ],
+  "arrangement": [
+    {
+      "layer": "人声",
+      "instrument": "人声（男/女声）",
+      "range": "—（按歌手音域定，建议副歌最高音 ≤ A4）",
+      "sections": [
+        "主歌",
+        "预副",
+        "副歌1",
+        "副歌2",
+        "副歌3",
+        "尾"
+      ],
+      "role": "主叙事、副歌情感",
+      "pan": "中",
+      "note": "人声是主角，其他声部让出 1–3kHz"
+    },
+    {
+      "layer": "主奏",
+      "instrument": "箫",
+      "range": "D4–B5（首调 +0–+21 半音）",
+      "sections": [
+        "前奏",
+        "间奏",
+        "副歌1",
+        "副歌2",
+        "副歌3",
+        "尾"
+      ],
+      "role": "主题陈述与回应句",
+      "pan": "中偏左",
+      "note": "副歌用高八度叠奏一层，不要全程铺满"
+    },
+    {
+      "layer": "副奏",
+      "instrument": "古筝",
+      "range": "D4–F#6（首调 +0–+28 半音）",
+      "sections": [
+        "主歌",
+        "预副",
+        "副歌1",
+        "副歌2",
+        "副歌3",
+        "间奏"
+      ],
+      "role": "颗粒点描、刮奏转场",
+      "pan": "中偏右",
+      "note": "刮奏只用在段落交界，别当填充"
+    },
+    {
+      "layer": "和声",
+      "instrument": "弦乐组",
+      "range": "—",
+      "sections": [
+        "预副",
+        "副歌1",
+        "副歌2",
+        "副歌3"
+      ],
+      "role": "长音托底、情绪推高",
+      "pan": "宽（左右）",
+      "note": "副歌才进，主歌不要压人声"
+    },
+    {
+      "layer": "低音",
+      "instrument": "阮",
+      "range": "D4–E5（首调 +0–+14 半音）",
+      "sections": [
+        "主歌",
+        "副歌1",
+        "副歌2",
+        "副歌3"
+      ],
+      "role": "根音/五度走动，稳住和声底座",
+      "pan": "中",
+      "note": "与底鼓对齐"
+    },
+    {
+      "layer": "氛围",
+      "instrument": "合成 pad",
+      "range": "—",
+      "sections": [
+        "前奏",
+        "间奏",
+        "尾"
+      ],
+      "role": "空气感、雨声质感",
+      "pan": "宽（左右）",
+      "note": "音量低，别抢主奏"
+    },
+    {
+      "layer": "打击",
+      "instrument": "大鼓",
+      "range": "—",
+      "sections": [
+        "预副",
+        "副歌1",
+        "副歌2",
+        "副歌3"
+      ],
+      "role": "心跳感底鼓 + 轻击",
+      "pan": "中",
+      "note": "散板段不用鼓"
+    }
+  ],
+  "chord_plans": [
+    {
+      "name": "4536251 五声化（首选）",
+      "degrees": [
+        "4add9",
+        "5add9",
+        "3m7",
+        "6add9",
+        "2m7",
+        "5sus4",
+        "1add9"
+      ],
+      "c_absolute": [
+        "Gadd9",
+        "Aadd9",
+        "F#m7",
+        "Badd9",
+        "Em7",
+        "Asus4",
+        "Dadd9"
+      ],
+      "fit": "副歌 / 主歌B",
+      "why": "五声化和弦避免 4、7 做和弦音，add9/sus 让色彩“空”而不“洋”"
+    },
+    {
+      "name": "6m-1-5-6m 循环",
+      "degrees": [
+        "6m7",
+        "1add9",
+        "5sus4",
+        "6m7"
+      ],
+      "c_absolute": [
+        "Bm7",
+        "Dadd9",
+        "Asus4",
+        "Bm7"
+      ],
+      "fit": "主歌",
+      "why": "羽调式最稳的循环，落音回 6，情绪不散"
+    },
+    {
+      "name": "1-5-6m-4 叙事",
+      "degrees": [
+        "1add9",
+        "5add9",
+        "6add9",
+        "4add9"
+      ],
+      "c_absolute": [
+        "Dadd9",
+        "Aadd9",
+        "Badd9",
+        "Gadd9"
+      ],
+      "fit": "前奏 / 尾",
+      "why": "宫起羽落，开场明亮、收束微凉"
+    }
+  ],
+  "rhythm": {
+    "feel": "散起-入板；长音留白，句子之间有呼吸",
+    "perc_preset": "锣鼓-中板",
+    "notes": [
+      "句尾留白 1 拍，别把每一拍填满",
+      "副歌前一小节滚镲/堂鼓渐快（密度递进）",
+      "打击预设「锣鼓-中板」：散板/前奏段落可关掉鼓"
+    ]
+  },
+  "mix": [
+    "主奏箫：中高频 2–4kHz 略提 2dB 出“气息”，低频 200Hz 以下切掉",
+    "古筝：与人声 1–3kHz 打架时 -2dB 让位人声",
+    "弦乐组：只做 200–800Hz 的托底，高频衰减 3dB 避免“糊”",
+    "底鼓与大鼓错开：底鼓走低频（60–80Hz），大鼓走 100–160Hz",
+    "整体：混响 1.8–2.4s 大房间，前奏/尾干湿比更湿"
+  ],
+  "pitfalls": [
+    "主奏乐器全程铺满 → 中国风要“留白”，主奏每句留 1 拍呼吸",
+    "偏音 4/7 做落音或长音 → 立刻“洋味/和风味”，用 lint 的 M1/M2 卡住",
+    "副歌只靠加音量推 → 要靠加声部与音区（弦乐、高八度叠奏）推",
+    "九大误区逐条过门禁：跑 `python scripts/lint_guofeng.py --input 你的谱.jp`",
+    "偏音 4/7 不做落音、不做长音（lint M1/M2 会卡）"
+  ],
+  "next_actions": [
+    "python scripts/jianpu2midi.py --input 江南雨.jp --out 江南雨.mid",
+    "python scripts/lint_guofeng.py --input 江南雨.jp --report 江南雨-校验.md"
+  ],
+  "selftest": {
+    "passed": true,
+    "checks": [
+      "✅ JSON 顶层字段齐全（SPEC §2）",
+      "✅ brief 字段齐全",
+      "✅ 小节数合计 = 对齐后总小节",
+      "✅ 每段小节数均为 4 的倍数且 ≥4",
+      "✅ 结构时长合计 104s 与目标 107s 误差 ≤ 20%",
+      "✅ 和弦候选 ≥3 套且级数与绝对音名等长",
+      "✅ 五声音级 = 1 2 3 5 6",
+      "✅ BPM 在 40–200",
+      "✅ 时长在 30–600 秒",
+      "✅ next_actions 含 MIDI 与 lint 两条命令",
+      "✅ 配器表含主奏且音域可读",
+      "✅ 打击预设名在 SPEC §5 名单内"
+    ]
+  }
+}

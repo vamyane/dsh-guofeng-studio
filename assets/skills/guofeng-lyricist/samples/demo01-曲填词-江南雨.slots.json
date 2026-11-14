@@ -1,0 +1,594 @@
+{
+  "meta": {
+    "skill": "guofeng-lyricist",
+    "line_break_mode": "musical(长音/休止落小节末)",
+    "version": "1.0.0",
+    "source": "..\\..\\guofeng-music\\package\\samples\\demo01-抒情国风-江南雨.jp",
+    "title": "江南雨",
+    "key": "D",
+    "mode": "yu",
+    "scale": "qingyue",
+    "meter": "4/4",
+    "tempo": 72
+  },
+  "sections": [
+    {
+      "name": "主歌A",
+      "start_bar": 5,
+      "bars": 8,
+      "lines": [
+        {
+          "line": 1,
+          "global_line": 1,
+          "bars": [
+            5,
+            5
+          ],
+          "beats": 4.0,
+          "syllables": 3,
+          "min_syllables": 1,
+          "rhyme": false,
+          "cadence": "2",
+          "contour": "6-1-2",
+          "tone_hints": [
+            "仄",
+            "平",
+            "平"
+          ],
+          "rest_at_end": 1.0,
+          "long_notes": [],
+          "end_reason": "句尾休止 ≥1 拍（落小节末）"
+        },
+        {
+          "line": 2,
+          "global_line": 2,
+          "bars": [
+            6,
+            7
+          ],
+          "beats": 8.0,
+          "syllables": 6,
+          "min_syllables": 4,
+          "rhyme": true,
+          "cadence": "6",
+          "contour": "3-2-1-6-5-6",
+          "tone_hints": [
+            "仄",
+            "仄",
+            "平",
+            "仄",
+            "平",
+            "平"
+          ],
+          "rest_at_end": 0.0,
+          "long_notes": [
+            {
+              "beat": 1.0,
+              "dur": 2.0
+            },
+            {
+              "beat": 7.0,
+              "dur": 2.0
+            }
+          ],
+          "end_reason": "句尾长音 ≥1.5 拍（落小节末）"
+        },
+        {
+          "line": 3,
+          "global_line": 3,
+          "bars": [
+            8,
+            9
+          ],
+          "beats": 8.0,
+          "syllables": 6,
+          "min_syllables": 4,
+          "rhyme": false,
+          "cadence": "3",
+          "contour": "6-1-2-3-5-3",
+          "tone_hints": [
+            "仄",
+            "平",
+            "平",
+            "平",
+            "仄",
+            "平"
+          ],
+          "rest_at_end": 0.0,
+          "long_notes": [
+            {
+              "beat": 5.0,
+              "dur": 2.0
+            }
+          ],
+          "end_reason": "跨满 2 小节"
+        },
+        {
+          "line": 4,
+          "global_line": 4,
+          "bars": [
+            10,
+            10
+          ],
+          "beats": 4.0,
+          "syllables": 3,
+          "min_syllables": 1,
+          "rhyme": true,
+          "cadence": "5",
+          "contour": "2-1-5",
+          "tone_hints": [
+            "仄",
+            "平",
+            "平"
+          ],
+          "rest_at_end": 0.0,
+          "long_notes": [
+            {
+              "beat": 3.0,
+              "dur": 2.0
+            }
+          ],
+          "end_reason": "句尾长音 ≥1.5 拍（落小节末）"
+        },
+        {
+          "line": 5,
+          "global_line": 5,
+          "bars": [
+            11,
+            12
+          ],
+          "beats": 8.0,
+          "syllables": 4,
+          "min_syllables": 2,
+          "rhyme": false,
+          "cadence": "6",
+          "contour": "1-2-3-6",
+          "tone_hints": [
+            "平",
+            "平",
+            "平",
+            "平"
+          ],
+          "rest_at_end": 1.0,
+          "long_notes": [
+            {
+              "beat": 1.0,
+              "dur": 2.0
+            },
+            {
+              "beat": 5.0,
+              "dur": 3.0
+            }
+          ],
+          "end_reason": "句尾休止 ≥1 拍（落小节末）"
+        }
+      ]
+    },
+    {
+      "name": "主歌B",
+      "start_bar": 13,
+      "bars": 8,
+      "lines": [
+        {
+          "line": 1,
+          "global_line": 6,
+          "bars": [
+            13,
+            13
+          ],
+          "beats": 4.0,
+          "syllables": 4,
+          "min_syllables": 2,
+          "rhyme": false,
+          "cadence": "3",
+          "contour": "6-1-2-3",
+          "tone_hints": [
+            "仄",
+            "平",
+            "平",
+            "平"
+          ],
+          "rest_at_end": 0.0,
+          "long_notes": [],
+          "end_reason": "段落边界"
+        },
+        {
+          "line": 2,
+          "global_line": 7,
+          "bars": [
+            14,
+            15
+          ],
+          "beats": 8.0,
+          "syllables": 8,
+          "min_syllables": 6,
+          "rhyme": true,
+          "cadence": "3",
+          "contour": "5-3-2-1-3-4-5-3",
+          "tone_hints": [
+            "仄",
+            "仄",
+            "仄",
+            "平",
+            "平",
+            "平",
+            "仄",
+            "平"
+          ],
+          "rest_at_end": 0.0,
+          "long_notes": [
+            {
+              "beat": 6.5,
+              "dur": 1.5
+            }
+          ],
+          "end_reason": "跨满 2 小节"
+        },
+        {
+          "line": 3,
+          "global_line": 8,
+          "bars": [
+            16,
+            17
+          ],
+          "beats": 8.0,
+          "syllables": 7,
+          "min_syllables": 5,
+          "rhyme": false,
+          "cadence": "5",
+          "contour": "2-1-3-1-2-3-5",
+          "tone_hints": [
+            "仄",
+            "平",
+            "仄",
+            "平",
+            "平",
+            "平",
+            "平"
+          ],
+          "rest_at_end": 0.0,
+          "long_notes": [
+            {
+              "beat": 1.0,
+              "dur": 2.0
+            }
+          ],
+          "end_reason": "跨满 2 小节"
+        },
+        {
+          "line": 4,
+          "global_line": 9,
+          "bars": [
+            18,
+            19
+          ],
+          "beats": 8.0,
+          "syllables": 7,
+          "min_syllables": 5,
+          "rhyme": true,
+          "cadence": "6",
+          "contour": "6-5-3-2-3-5-6",
+          "tone_hints": [
+            "仄",
+            "仄",
+            "仄",
+            "平",
+            "平",
+            "平",
+            "平"
+          ],
+          "rest_at_end": 0.0,
+          "long_notes": [
+            {
+              "beat": 1.0,
+              "dur": 2.0
+            }
+          ],
+          "end_reason": "跨满 2 小节"
+        },
+        {
+          "line": 5,
+          "global_line": 10,
+          "bars": [
+            20,
+            20
+          ],
+          "beats": 4.0,
+          "syllables": 2,
+          "min_syllables": 1,
+          "rhyme": false,
+          "cadence": "6",
+          "contour": "5-6",
+          "tone_hints": [
+            "平",
+            "平"
+          ],
+          "rest_at_end": 0.0,
+          "long_notes": [
+            {
+              "beat": 1.0,
+              "dur": 2.0
+            },
+            {
+              "beat": 3.0,
+              "dur": 2.0
+            }
+          ],
+          "end_reason": "句尾长音 ≥1.5 拍（落小节末）"
+        }
+      ]
+    },
+    {
+      "name": "副歌",
+      "start_bar": 21,
+      "bars": 8,
+      "lines": [
+        {
+          "line": 1,
+          "global_line": 11,
+          "bars": [
+            21,
+            21
+          ],
+          "beats": 4.0,
+          "syllables": 3,
+          "min_syllables": 1,
+          "rhyme": false,
+          "cadence": "3'",
+          "contour": "1'-2'-3'",
+          "tone_hints": [
+            "平",
+            "平",
+            "平"
+          ],
+          "rest_at_end": 0.0,
+          "long_notes": [
+            {
+              "beat": 1.0,
+              "dur": 2.0
+            }
+          ],
+          "end_reason": "段落边界"
+        },
+        {
+          "line": 2,
+          "global_line": 12,
+          "bars": [
+            22,
+            23
+          ],
+          "beats": 8.0,
+          "syllables": 7,
+          "min_syllables": 5,
+          "rhyme": true,
+          "cadence": "5'",
+          "contour": "5'-3'-2'-1'-2'-3'-5'",
+          "tone_hints": [
+            "仄",
+            "仄",
+            "仄",
+            "平",
+            "平",
+            "平",
+            "平"
+          ],
+          "rest_at_end": 0.0,
+          "long_notes": [
+            {
+              "beat": 1.0,
+              "dur": 2.0
+            }
+          ],
+          "end_reason": "跨满 2 小节"
+        },
+        {
+          "line": 3,
+          "global_line": 13,
+          "bars": [
+            24,
+            25
+          ],
+          "beats": 8.0,
+          "syllables": 7,
+          "min_syllables": 5,
+          "rhyme": false,
+          "cadence": "1'",
+          "contour": "6'-5'-3'-5'-3'-2'-1'",
+          "tone_hints": [
+            "仄",
+            "仄",
+            "平",
+            "仄",
+            "仄",
+            "仄",
+            "平"
+          ],
+          "rest_at_end": 0.0,
+          "long_notes": [
+            {
+              "beat": 1.0,
+              "dur": 2.0
+            }
+          ],
+          "end_reason": "跨满 2 小节"
+        },
+        {
+          "line": 4,
+          "global_line": 14,
+          "bars": [
+            26,
+            27
+          ],
+          "beats": 8.0,
+          "syllables": 7,
+          "min_syllables": 5,
+          "rhyme": true,
+          "cadence": "5",
+          "contour": "6'-5'-3'-3'-2'-1'-5",
+          "tone_hints": [
+            "仄",
+            "仄",
+            "平",
+            "仄",
+            "仄",
+            "仄",
+            "平"
+          ],
+          "rest_at_end": 0.0,
+          "long_notes": [
+            {
+              "beat": 1.0,
+              "dur": 2.0
+            }
+          ],
+          "end_reason": "跨满 2 小节"
+        },
+        {
+          "line": 5,
+          "global_line": 15,
+          "bars": [
+            28,
+            28
+          ],
+          "beats": 4.0,
+          "syllables": 1,
+          "min_syllables": 1,
+          "rhyme": false,
+          "cadence": "6",
+          "contour": "6",
+          "tone_hints": [
+            "平"
+          ],
+          "rest_at_end": 1.0,
+          "long_notes": [
+            {
+              "beat": 1.0,
+              "dur": 3.0
+            }
+          ],
+          "end_reason": "句尾休止 ≥1 拍（落小节末）"
+        }
+      ]
+    },
+    {
+      "name": "尾",
+      "start_bar": 29,
+      "bars": 4,
+      "lines": [
+        {
+          "line": 1,
+          "global_line": 16,
+          "bars": [
+            29,
+            29
+          ],
+          "beats": 4.0,
+          "syllables": 3,
+          "min_syllables": 1,
+          "rhyme": false,
+          "cadence": "2'",
+          "contour": "6-1'-2'",
+          "tone_hints": [
+            "平",
+            "平",
+            "平"
+          ],
+          "rest_at_end": 0.0,
+          "long_notes": [
+            {
+              "beat": 1.0,
+              "dur": 2.0
+            }
+          ],
+          "end_reason": "段落边界"
+        },
+        {
+          "line": 2,
+          "global_line": 17,
+          "bars": [
+            30,
+            31
+          ],
+          "beats": 8.0,
+          "syllables": 6,
+          "min_syllables": 4,
+          "rhyme": true,
+          "cadence": "5",
+          "contour": "3'-2'-1'-5-6-5",
+          "tone_hints": [
+            "仄",
+            "仄",
+            "仄",
+            "平",
+            "仄",
+            "平"
+          ],
+          "rest_at_end": 0.0,
+          "long_notes": [
+            {
+              "beat": 1.0,
+              "dur": 2.0
+            },
+            {
+              "beat": 7.0,
+              "dur": 2.0
+            }
+          ],
+          "end_reason": "句尾长音 ≥1.5 拍（落小节末）"
+        },
+        {
+          "line": 3,
+          "global_line": 18,
+          "bars": [
+            32,
+            32
+          ],
+          "beats": 4.0,
+          "syllables": 1,
+          "min_syllables": 1,
+          "rhyme": false,
+          "cadence": "6",
+          "contour": "6",
+          "tone_hints": [
+            "平"
+          ],
+          "rest_at_end": 0.0,
+          "long_notes": [
+            {
+              "beat": 1.0,
+              "dur": 4.0
+            }
+          ],
+          "end_reason": "句尾长音 ≥1.5 拍（落小节末）"
+        }
+      ]
+    }
+  ],
+  "rhyme_plan": {
+    "rhyme_lines": [
+      2,
+      4,
+      7,
+      9,
+      12,
+      14,
+      17
+    ],
+    "recommended_che": [
+      "言前",
+      "人辰"
+    ],
+    "note": "羽调式，羽调式落音 6，柔而不伤，宜宽而收得住。每段偶句押韵，句尾长音处必须押；同段内不要换辙（lint L1 会报）。"
+  },
+  "next": [
+    "把每句字数写成词，韵脚服从 rhyme_plan",
+    "填好后跑 lint_guofeng_lyric.py --slots 江南雨-填词槽位.slots.json"
+  ],
+  "generated": "2026-10-25 17:33",
+  "stats": {
+    "bars": 32,
+    "sections": 4,
+    "lines": 18,
+    "syllables_total": 97
+  }
+}

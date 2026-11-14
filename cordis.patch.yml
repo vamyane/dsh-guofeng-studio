@@ -1,0 +1,7 @@
+# dsh-guofeng-studio —— 中国风词曲工作室（DSH 插件）
+#
+# 一条 insert 行：把插件的宿主半边挂进组合树。row 的 name 必须等于包名，
+# 否则运行时按 name 解析插件会失败。
+- insert:
+    - id: guofeng-studio
+      name: dsh-guofeng-studio

@@ -1,0 +1,51 @@
+# LICENSE
+
+本包采用**双许可**：插件代码与随包技能内容分开授权。
+
+## 一、插件代码：MIT
+
+适用文件与目录：`lib/`、`cordis.patch.yml`、`test/`、`tools/`、`package.json` 里的脚本字段。
+
+Copyright (c) 2026 奶龙1号
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+associated documentation files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial
+portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT
+NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES
+OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## 二、随包技能内容：© 奶龙1号，随插件免费使用
+
+适用目录：`assets/skills/`（含 `SKILL.md`、`references/`、`samples/`、`scripts/`）。
+
+### 你可以
+
+1. 安装本插件后，在自己或团队的工作中使用这些技能，生成简谱、和弦表、配器表、词稿、校验报告与 MIDI。
+2. 把生成结果用于商业作品（原创歌曲、短视频配乐、游戏/短剧 BGM、广告配乐、教学材料），无需另行授权。
+3. 对生成结果自由修改、编配、混音、发行。
+4. 在自己使用的设备上备份插件包。
+
+### 你不可以
+
+1. 单独转售、出租、二次上架或重新发布 `assets/skills/` 下的技能内容（含改头换面后的版本）。
+2. 反向工程脚本以提取内置风格配方库、韵辙表或校验规则，用于制作同类竞争产品。
+3. 移除包内的授权、来源与免责声明文件。
+
+### 生成内容的边界
+
+本授权只覆盖本插件**生成的内容**，不包含任何第三方素材（采样音源、音色库、loop、参考曲目、
+诗词与歌词正文）的授权，这些须使用者自行取得。商用前请自行确认版权与平台规则。
+
+## 三、免责
+
+本插件提供创作辅助，不保证生成结果符合任何平台的审核、版权检测或商业预期。因使用本插件产生
+的纠纷、下架或收益损失，由使用者自行承担；本插件不构成法律意见。
